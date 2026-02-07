@@ -40,14 +40,14 @@ AppMatematicaGenerica
 
 ---
 
-## 🧬 Uso de Genéricos
+## Uso de Genéricos
 La clase `ListaNumeros<T>` utiliza genéricos para permitir el manejo de distintos tipos numéricos como `int`, `double` y `decimal` sin necesidad de modificar el código.
 
 Esto hace que la aplicación sea reutilizable y flexible.
 
 ---
 
-## 🔗 Uso de Delegados
+## Uso de Delegados
 Se define el siguiente delegado:
 
 public delegate T OperacionMatematica<T>(T a, T b);
@@ -55,7 +55,7 @@ public delegate T OperacionMatematica<T>(T a, T b);
 Este delegado permite pasar las operaciones matemáticas como parámetros, facilitando la ejecución dinámica de cada operación sobre la lista de números.
 
 
-Control de Excepciones
+## Control de Excepciones
 El programa maneja las siguientes excepciones:
 
 FormatException
@@ -70,7 +70,7 @@ Se produce cuando se intenta dividir entre cero.
 Cada excepción es manejada mostrando un mensaje claro al usuario.
 
 
-Interfaz de Usuario
+## Interfaz de Usuario
 La aplicación presenta un menú en consola que permite al usuario:
 
 Seleccionar el tipo de dato numérico.
@@ -82,7 +82,7 @@ Elegir la operación matemática a realizar.
 Salir del programa.
 
 
-Instrucciones para ejecutar el programa
+## Instrucciones para ejecutar el programa
 Abrir el proyecto en Visual Studio
 
 Verificar que sea un proyecto de tipo Consola
@@ -92,16 +92,16 @@ Ejecutar el programa con Ctrl + F5
 Seguir las instrucciones mostradas en pantalla
 
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
 Lenguaje: C#
 
 Plataforma: .NET
 
 Tipo de aplicación: Consola
 
-Autor
+## Autor
 Yeicol Antonio Martinez Perez
 Instituto Tecnológico de las Américas (ITLA)
 
-Nota final
+## Nota final
 Este proyecto fue desarrollado con fines académicos y cumple con todos los requerimientos establecidos en la Tarea Práctica #2.
